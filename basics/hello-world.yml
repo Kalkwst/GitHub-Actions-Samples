@@ -1,0 +1,13 @@
+# This workflow will write a 'Hello World!' message on the console when it runs.
+
+name: Hello World Workflow
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Hello World
+      run: echo "Hello, World!"
+      
